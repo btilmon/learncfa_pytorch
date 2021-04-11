@@ -4,7 +4,7 @@ PyTorch implementation of:
 
 Ayan Chakrabarti, "[Learning Sensor Multiplexing Design through Back-propagation](https://github.com/ayanc/learncfa)," Advances in Neural Information Processing Systems (NIPS) 2016. 
 
-See the authors original code if you want Caffe instead of PyTorch.
+See the authors original code if you want Caffe instead of PyTorch. Also see the authors code for copyright details.
 
 This paper has two components that are jointly learned. First, a sensor network learns the optimal color pattern on a digital camera, instead of, for example, the conventional RGGB Bayer pattern. Second, with the predicted color pattern from the sensor network, a reconstruction network learns to reconstruct the RGB image instead of using traditional demosaicking algorithms. The photometric loss between the predicted RGB patch and ground truth RGB patch is then propagated to simultaneously update both the reconstruction network and sensor network.
 
