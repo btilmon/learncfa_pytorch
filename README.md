@@ -17,7 +17,7 @@ $ conda create -n your_env python=3.7
 $ conda activate your_env
 ```
 
-On Ubuntu 16.04.6 LTS with NVIDIA drivers:
+Tested on Ubuntu 16.04.6 LTS with NVIDIA drivers:
   - pytorch 1.8.1 (omit `cudatoolkit=10.2` if you don't have/want GPU)
   
       `conda install pytorch==1.8.1 torchvision cudatoolkit=10.2 -c pytorch`
