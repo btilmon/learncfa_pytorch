@@ -8,7 +8,7 @@ See the authors original code if you want Caffe instead of PyTorch.
 
 This paper has two components that are jointly learned. First, a sensor network learns the optimal color pattern on a digital camera, instead of, for example, the conventional RGGB Bayer pattern. Second, with the predicted color pattern from the sensor network, a reconstruction network learns to reconstruct the RGB image instead of using traditional demosaicking algorithms. The photometric loss between the predicted RGB patch and ground truth RGB patch is then propagated to simultaneously update both the reconstruction network and sensor network.
 
-## Requirements
+## Dependencies
 
 Assuming you have [Anaconda](https://www.anaconda.com/) :
 
@@ -17,10 +17,15 @@ $ conda create -n your_env python=3.7
 $ conda activate your_env
 ```
 
-Most important dependencies:
-  - pytorch 1.8.1
-  - skimage
-  - numpy
+On Ubuntu 16.04.6 LTS with NVIDIA drivers:
+  - pytorch 1.8.1 (see [link](https://pytorch.org/) if you don't have/want GPU)
+  
+      `conda install pytorch torchvision cudatoolkit=10.2 -c pytorch`
+      
+  - scitkit-image
+  
+      `conda install scikit-image`
+
 
 ## Prepare Data
 
