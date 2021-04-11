@@ -10,7 +10,7 @@ This paper has two components that are jointly learned. First, a sensor network 
 
 ## Dependencies
 
-Assuming you have [Anaconda](https://www.anaconda.com/) :
+Assuming you have [Anaconda](https://www.anaconda.com/products/individual#Downloads) :
 
 ```bash
 $ conda create -n your_env python=3.7
