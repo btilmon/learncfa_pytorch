@@ -34,8 +34,6 @@ for epoch in range(1000):
         optim.zero_grad()
         CFA = LCFA(light)
         y = Demosaic(CFA)
-
-        #print(CFA.max(), y.max())
         
         loss = lossFn(y, gt)
         loss.backward()

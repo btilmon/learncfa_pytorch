@@ -8,13 +8,16 @@ This paper has two components that are jointly learned. First, a sensor network 
 
 ## Requirements
 
-Assuming you have [[Anaconda](https://www.anaconda.com/)]) on your machine: create a conda environment with included dependencies from `environment.yml` and activate the conda environment.
+Assuming you have [[Anaconda](https://www.anaconda.com/)]) on your machine: create a conda environment with included dependencies from `env.yml` and activate the conda environment.
 
-pytorch, numpy, skimage
+```bash
+$ conda env create --name NAME --file env.yaml
+$ conda activate NAME
+```
 
 ## Prepare Data
 
-While developing this code, the [[Gehler-Shi dataset](https://www2.cs.sfu.ca/~colour/data/shi_gehler/)]) was not available, so the data is provided in `data/raw/` (Thanks to Jon Barron for providing the Gehler-Shi dataset [[here](https://github.com/google/ffcc)]). Run `convert.py` in `data/` to convert the original RAW images into normalized 8-bit PNG files:
+While developing this code, the [[Gehler-Shi dataset](https://www2.cs.sfu.ca/~colour/data/shi_gehler/)]) was not available, so the data is provided in `data/raw/` (Thanks to Jon Barron for providing the Gehler-Shi dataset [[here](https://github.com/google/ffcc)]). This step is already complete, but if you want to run froms cratch, run `convert.py` in `data/` to convert the original RAW images into normalized 8-bit PNG files:
 
 ```bash
 $ cd data
@@ -22,6 +25,14 @@ $ python convert.py raw
 ```
 
 ## Training
+```bash
+$ python main.py
+```
+
+## Experiments
+
+Coming soon!
+
 
 
 
