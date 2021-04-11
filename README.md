@@ -17,7 +17,7 @@ $ conda activate NAME
 
 ## Prepare Data
 
-While developing this code, the [Gehler-Shi dataset](https://www2.cs.sfu.ca/~colour/data/shi_gehler/)) was not available, so the data is provided in `data/raw/` (Thanks to Jon Barron for providing the Gehler-Shi dataset [here](https://github.com/google/ffcc)). This step is already complete, but if you want to run froms cratch, run `convert.py` in `data/` to convert the original RAW images into normalized 8-bit PNG files:
+While developing this code, the [Gehler-Shi dataset](https://www2.cs.sfu.ca/~colour/data/shi_gehler/)) was not available, so the data is provided in `data/raw/` (Thanks to Jon Barron for providing the Gehler-Shi dataset [here](https://github.com/google/ffcc)). This step is already complete, but if you want to run from scratch, run `convert.py` in `data/` to convert the original RAW images into normalized 8-bit PNG files:
 
 ```bash
 $ cd data
