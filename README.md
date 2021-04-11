@@ -20,7 +20,7 @@ $ conda activate your_env
 On Ubuntu 16.04.6 LTS with NVIDIA drivers:
   - pytorch 1.8.1 (omit `cudatoolkit=10.2` if you don't have/want GPU)
   
-      `conda install pytorch torchvision cudatoolkit=10.2 -c pytorch`
+      `conda install pytorch==1.8.1 torchvision cudatoolkit=10.2 -c pytorch`
       
   - scitkit-image
   
