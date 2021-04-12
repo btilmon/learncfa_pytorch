@@ -46,7 +46,9 @@ $ python main.py
 Coming soon!
 
 
+## To do
 
+    - fix [random number generator bug](https://tanelp.github.io/posts/a-bug-that-plagues-thousands-of-open-source-ml-projects/)
 
 
 
