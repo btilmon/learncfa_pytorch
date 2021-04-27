@@ -1,0 +1,31 @@
+2021-04-25 19:38:59,782 INFO    MainThread:18840 [internal.py:wandb_internal():91] W&B internal server running at pid: 18840, started at: 2021-04-25 19:38:59.782495
+2021-04-25 19:38:59,785 INFO    WriterThread:18840 [datastore.py:open_for_write():77] open: /md0/home/btilmon/projects/learncfa_pytorch/wandb/run-20210425_193859-2bz6kswj/run-2bz6kswj.wandb
+2021-04-25 19:38:59,786 DEBUG   HandlerThread:18840 [handler.py:handle_request():120] handle_request: check_version
+2021-04-25 19:38:59,788 DEBUG   SenderThread:18840 [sender.py:send():160] send: header
+2021-04-25 19:38:59,788 DEBUG   SenderThread:18840 [sender.py:send():160] send: request
+2021-04-25 19:38:59,788 DEBUG   SenderThread:18840 [sender.py:send_request():169] send_request: check_version
+2021-04-25 19:38:59,865 DEBUG   SenderThread:18840 [sender.py:send():160] send: run
+2021-04-25 19:39:00,050 INFO    SenderThread:18840 [sender.py:_start_run_threads():654] run started: 2bz6kswj with start time 1619393939
+2021-04-25 19:39:00,050 DEBUG   SenderThread:18840 [sender.py:send():160] send: summary
+2021-04-25 19:39:00,051 INFO    SenderThread:18840 [sender.py:_save_file():781] saving file wandb-summary.json with policy end
+2021-04-25 19:39:00,051 DEBUG   HandlerThread:18840 [handler.py:handle_request():120] handle_request: run_start
+2021-04-25 19:39:00,120 DEBUG   HandlerThread:18840 [meta.py:__init__():34] meta init
+2021-04-25 19:39:00,120 DEBUG   HandlerThread:18840 [meta.py:__init__():48] meta init done
+2021-04-25 19:39:00,120 DEBUG   HandlerThread:18840 [meta.py:probe():190] probe
+2021-04-25 19:39:00,146 DEBUG   HandlerThread:18840 [meta.py:_setup_git():180] setup git
+2021-04-25 19:39:00,168 DEBUG   HandlerThread:18840 [meta.py:_setup_git():187] setup git done
+2021-04-25 19:39:00,168 DEBUG   HandlerThread:18840 [meta.py:_save_pip():52] save pip
+2021-04-25 19:39:00,169 DEBUG   HandlerThread:18840 [meta.py:_save_pip():66] save pip done
+2021-04-25 19:39:00,169 DEBUG   HandlerThread:18840 [meta.py:probe():231] probe done
+2021-04-25 19:39:00,176 DEBUG   SenderThread:18840 [sender.py:send():160] send: files
+2021-04-25 19:39:00,176 INFO    SenderThread:18840 [sender.py:_save_file():781] saving file wandb-metadata.json with policy now
+2021-04-25 19:39:00,186 DEBUG   HandlerThread:18840 [handler.py:handle_request():120] handle_request: status
+2021-04-25 19:39:00,186 DEBUG   SenderThread:18840 [sender.py:send():160] send: request
+2021-04-25 19:39:00,186 DEBUG   SenderThread:18840 [sender.py:send_request():169] send_request: status
+2021-04-25 19:39:00,742 WARNING MainThread:18840 [internal.py:wandb_internal():146] Internal process interrupt: 1
+2021-04-25 19:39:03,975 WARNING MainThread:18840 [internal.py:wandb_internal():146] Internal process interrupt: 2
+2021-04-25 19:39:03,975 ERROR   MainThread:18840 [internal.py:wandb_internal():149] Internal process interrupted.
+2021-04-25 19:39:04,176 INFO    WriterThread:18840 [datastore.py:close():258] close: /md0/home/btilmon/projects/learncfa_pytorch/wandb/run-20210425_193859-2bz6kswj/run-2bz6kswj.wandb
+2021-04-25 19:39:04,191 INFO    HandlerThread:18840 [handler.py:finish():624] shutting down handler
+2021-04-25 19:39:04,315 INFO    SenderThread:18840 [sender.py:finish():884] shutting down sender
+2021-04-25 19:39:06,147 INFO    MainThread:18840 [internal.py:handle_exit():78] Internal process exited

@@ -1,0 +1,24 @@
+{
+    "os": "Linux-4.4.0-198-generic-x86_64-with-debian-stretch-sid",
+    "python": "3.7.10",
+    "heartbeatAt": "2021-04-25T20:43:00.521546",
+    "startedAt": "2021-04-25T20:42:59.601113",
+    "docker": null,
+    "gpu": "TITAN RTX",
+    "gpu_count": 10,
+    "cpu_count": 56,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/btilmon/learncfa_pytorch.git",
+        "commit": "dc73d0cabbb993c07bd36f1e784696b27a2f4d1a"
+    },
+    "email": "brevinjt@gmail.com",
+    "root": "/md0/home/btilmon/projects/learncfa_pytorch",
+    "host": "ece-n241-ten",
+    "username": "btilmon",
+    "executable": "/home/btilmon/miniconda3/envs/learncfa/bin/python"
+}

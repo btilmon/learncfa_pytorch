@@ -1,0 +1,1 @@
+TypeError: log(): argument 'input' (position 1) must be Tensor, not numpy.float64

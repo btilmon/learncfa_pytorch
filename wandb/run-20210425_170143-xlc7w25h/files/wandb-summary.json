@@ -1,0 +1,1 @@
+{"loss": 0.08245663344860077, "_runtime": 7, "_timestamp": 1619384511, "_step": 2, "images/gt": {"_type": "images/separated", "width": 8, "height": 8, "format": "png", "count": 1, "captions": ["Label"]}, "images/est": {"_type": "images/separated", "width": 8, "height": 8, "format": "png", "count": 1, "captions": ["Label"]}}

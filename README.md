@@ -41,11 +41,23 @@ $ python convert.py raw
 $ python main.py
 ```
 
-## Experiments
+## Testing
 
-Coming soon!
+To test with the learned color filter array and noise level with pretrained weights from the final iteration, run:
+```bash
+$ python test.py --cfa LCFA --noise 0
+```
 
+--cfa options = LCFA, Bayer, CPZ
 
+--noise options = 0, 1e-9, 1e-10, 1e-11
+
+## Visualize Learned Sensors
+
+```bash
+$ cd learned_sensors
+$ python plot.py
+```
 
 
 
