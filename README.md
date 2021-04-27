@@ -37,19 +37,24 @@ $ python convert.py raw
 ```
 
 ## Training
+
+To train the sensor and reconstructionn network jointly, run:
+
 ```bash
 $ python main.py
 ```
 
-## Experiments
+## Testing
 
-Coming soon!
+To test on a pretrained model with a given color filter array and noise level, run:
 
+```bash
+$ python test.py --cfa <CFA> --noise <NOISE>
+```
 
-## To do
+--cfa = LCFA, Bayer, CFZ
 
-    - fix [random number generator bug](https://tanelp.github.io/posts/a-bug-that-plagues-thousands-of-open-source-ml-projects/)
-
+--noise = 0, 1e-11, 1e-10, 1e-9
 
 
 
